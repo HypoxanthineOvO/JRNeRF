@@ -1,10 +1,3 @@
-'''
-Author: HypoxanthineOvO heyx1@shanghaitech.edu.cn
-Date: 2023-04-07 01:00:17
-LastEditors: HypoxanthineOvO heyx1@shanghaitech.edu.cn
-LastEditTime: 2023-04-07 17:30:48
-FilePath: /JRNeRF/loader/synthetic.py
-'''
 import jittor as jt
 import os
 

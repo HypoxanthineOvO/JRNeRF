@@ -1,17 +1,10 @@
-'''
-Author: HypoxanthineOvO heyx1@shanghaitech.edu.cn
-Date: 2023-04-07 00:58:16
-LastEditors: HypoxanthineOvO heyx1@shanghaitech.edu.cn
-LastEditTime: 2023-04-07 17:28:58
-FilePath: /JRNeRF/player.py
-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
-'''
 import jittor as jt
 import os
 import argparse
 
 # Load Packages
 from loader import SyntheticLoader
+from model import NeRF
 
 class Arguements:
     def __init__(self, args:argparse.ArgumentParser().parse_args()):
